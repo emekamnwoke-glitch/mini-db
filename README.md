@@ -2,7 +2,7 @@
 
 A minimal relational database engine built from scratch in Java — no external libraries, no frameworks. Built as a Master's degree portfolio project demonstrating core CS fundamentals.
 
-![CI](https://github.com/YOUR_USERNAME/mini-db/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/emekamnwoke-glitch/mini-db/actions/workflows/ci.yml/badge.svg)
 
 ## Architecture
 
@@ -39,7 +39,7 @@ SELECT name FROM users WHERE id = 1;
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/mini-db.git
+git clone https://github.com/emekamnwoke-glitch/mini-db.git
 cd mini-db
 
 # Run tests
@@ -66,14 +66,14 @@ minidb> INSERT INTO users VALUES (2, 'Bob')
 minidb> SELECT * FROM users
 id | name
 ---------
-1  | Alice
-2  | Bob
+1  | Emeka
+2  | Chimdindu
 (2 rows)
 
 minidb> SELECT name FROM users WHERE id = 1
 name
 ----
-Alice
+Emeka
 (1 row)
 
 minidb> exit
